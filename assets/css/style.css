@@ -1,0 +1,221 @@
+/* PALETA DE COLORES
+91DDCF verde agua
+e3e7d8 beige - marron clarito
+E8C5E5 rosa pastel
+F19ED2 rosa fuerte
+c409b4 fucsia 
+7d266c casi bordo
+*/
+
+body {
+    background-color: #e3e7d8 !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-size-adjust: 100%; /* Valor por defecto */
+    -webkit-text-size-adjust: 100%; /* Para navegadores basados en WebKit como Chrome y Safari */
+    -ms-text-size-adjust: 100%; /* Para versiones antiguas de Internet Explorer */
+}
+
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+}
+
+
+/*Estilos para la pagina principal_ultimo*/
+.content {
+    font-family: 'Arial', sans-serif; /* Tipografía clara */
+    line-height: 1.6; /* Espacio entre líneas */
+}
+
+section h2 {
+    
+    color: #c409b4;
+    margin-bottom: 20px; /* Margen inferior para separar encabezados de párrafos */
+    text-align: center;
+}
+
+
+.parrafo1 {
+    color: #F19ED2;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.parrafo2{
+    text-align: justify;
+    color: #666; 
+    margin-bottom: 15px; 
+}
+
+
+.carousel-item img {
+    filter: brightness(80%); /* Ajusta el brillo de las imágenes para evitar que sean demasiado brillantes */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: white; /* Cambia el color de los controles a blanco para mayor visibilidad */
+}
+
+/*Estilos para la pagina quienes_somos*/
+.card-img-top {
+    width: 100% !important; /* Ajusta el ancho al 100% de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área sin distorsionarse */
+}
+
+.team{
+    background-color: #E8C5E5 !important;
+    border: #F19ED2;
+    padding: 10px;
+    margin-right: auto !important;
+}
+
+.boton-card{
+    background-color: #5f2a5a !important;
+    border-color: #51234c !important;
+    color: #fff !important;
+}
+
+
+
+/*head_view*/
+header {
+    font-family: 'Lucida Handwriting', 'cursive';
+    background-color: #E8C5E5;
+    color: #5f2a5a;
+    text-align: center;
+    padding: 15px;
+}
+
+/*navbar_view*/
+nav {
+    background-color: #91DDCF !important;
+    padding: 10px;
+}
+
+
+/*
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+    
+    
+.nav-link {
+    
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+*/
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a:hover{
+    background-color: #32a6b6;
+}
+
+.dropdown-menu{
+    background-color: #6aaea2 !important;
+}
+
+nav ul li ul li a:hover{
+    background-color:#32a6b6 !important;
+}
+
+
+
+/*acerca_de*/
+#acerca-de {
+    padding: 50px;
+}
+
+#acerca-de h2 {
+    margin-bottom: 20px;
+}
+.contenido-acerca p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+.contenido-acerca h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #7d266c;
+}
+.contenido-acerca ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contenido-acerca ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+.contenido-acerca ul li strong {
+    color: #F19ED2;
+}
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+/*registro
+#registro {
+    background-color: #92217d !important;
+    max-width: 100%;
+    height: auto;
+}*/
+
+/*login*/
+#login{
+    background-color: #bdadba !important;
+    
+    
+}
+
+
+/*footer_view*/
+footer {
+    background-color: #91DDCF; /* Color de fondo del footer */
+    color: #000;
+    padding: 20px 0; 
+}
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+.social-icon {
+    display: inline-block;
+    vertical-align: middle; /* Opcional: para alinear verticalmente los íconos */
+    margin-right: 10px; /* Espacio entre íconos */
+}
+
+.social-icon img {
+    width: 30px;
+    height: auto; /* Mantén la proporción */
+}
+
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border-radius: 5px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+    

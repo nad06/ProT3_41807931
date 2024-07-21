@@ -1,0 +1,14 @@
+CRITICAL - 2024-06-19 15:22:21 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::setDedaultNamespace()
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 7.
+ 1 SYSTEMPATH\Router\RouteCollection.php(340): require()
+ 2 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 15:48:24 --> ErrorException: Cannot redeclare App\Controllers\Home::registrarse()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
